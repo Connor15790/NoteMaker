@@ -1,0 +1,37 @@
+.bulleticon {
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.bulleticon:hover {
+    background-color: rgb(211, 207, 207);
+}
+
+.tooltipcontainer {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltipcontainer .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltipcontainer:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

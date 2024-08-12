@@ -8,4 +8,5 @@ Start the server here: https://notemaker-5f7g.onrender.com
 
 Check out a demo of NoteMaker here: https://astonishing-cassata-a95820.netlify.app/
 
+![Example Image](images/Home.png)
 
